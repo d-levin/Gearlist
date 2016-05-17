@@ -1,5 +1,5 @@
 {
-  "name": "Gearlist",
+  "name": "gearlist",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -12,6 +12,13 @@
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
     "font-awesome": "^4.6.3"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    }
   },
   "appPath": "app",
   "moduleName": "app"
